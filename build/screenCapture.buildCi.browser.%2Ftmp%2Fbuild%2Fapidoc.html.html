@@ -1,0 +1,651 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a>ember-paper (v1.0.0-alpha.19)</a>
+</h1>
+<h4>The Ember approach to Material Design.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ember-paper">module ember-paper</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.angular_scss_filter">
+            function <span class="apidocSignatureSpan">ember-paper.</span>angular_scss_filter
+            <span class="apidocSignatureSpan">(inputNode, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.config">
+            function <span class="apidocSignatureSpan">ember-paper.</span>config
+            <span class="apidocSignatureSpan">(env, baseConfig)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.contentFor">
+            function <span class="apidocSignatureSpan">ember-paper.</span>contentFor
+            <span class="apidocSignatureSpan">(type, config)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.included">
+            function <span class="apidocSignatureSpan">ember-paper.</span>included
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.pathBase">
+            function <span class="apidocSignatureSpan">ember-paper.</span>pathBase
+            <span class="apidocSignatureSpan">(packageName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.postprocessTree">
+            function <span class="apidocSignatureSpan">ember-paper.</span>postprocessTree
+            <span class="apidocSignatureSpan">(type, tree)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.treeForStyles">
+            function <span class="apidocSignatureSpan">ember-paper.</span>treeForStyles
+            <span class="apidocSignatureSpan">(tree)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.treeForVendor">
+            function <span class="apidocSignatureSpan">ember-paper.</span>treeForVendor
+            <span class="apidocSignatureSpan">(tree)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ember-paper.</span>angular_scss_filter.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">ember-paper.</span>name</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ember-paper.angular_scss_filter">module ember-paper.angular_scss_filter</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.angular_scss_filter.angular_scss_filter">
+            function <span class="apidocSignatureSpan">ember-paper.</span>angular_scss_filter
+            <span class="apidocSignatureSpan">(inputNode, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ember-paper.angular_scss_filter.prototype">module ember-paper.angular_scss_filter.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.angular_scss_filter.prototype.constructor">
+            function <span class="apidocSignatureSpan">ember-paper.angular_scss_filter.prototype.</span>constructor
+            <span class="apidocSignatureSpan">(inputNode, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-paper.angular_scss_filter.prototype.processString">
+            function <span class="apidocSignatureSpan">ember-paper.angular_scss_filter.prototype.</span>processString
+            <span class="apidocSignatureSpan">(content, relativePath)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ember-paper.angular_scss_filter.prototype.</span>extensions</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">ember-paper.angular_scss_filter.prototype.</span>targetExtension</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ember-paper" id="apidoc.module.ember-paper">module ember-paper</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.angular_scss_filter" id="apidoc.element.ember-paper.angular_scss_filter">
+        function <span class="apidocSignatureSpan">ember-paper.</span>angular_scss_filter
+        <span class="apidocSignatureSpan">(inputNode, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function AngularScssFilter(inputNode, options) {
+  Filter.call(this, inputNode, {
+    annotation: options.annotation
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.config" id="apidoc.element.ember-paper.config">
+        function <span class="apidocSignatureSpan">ember-paper.</span>config
+        <span class="apidocSignatureSpan">(env, baseConfig)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">config(env, baseConfig) {
+  return { 'ember-paper': { insertFontLinks: true } };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.contentFor" id="apidoc.element.ember-paper.contentFor">
+        function <span class="apidocSignatureSpan">ember-paper.</span>contentFor
+        <span class="apidocSignatureSpan">(type, config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">contentFor = function (type, config) {
+  if (type === 'head') {
+    if (config['ember-paper'].insertFontLinks) {
+      return '&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic"&gt;' +
+        '&lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;';
+    }
+  } else if (type === 'body-footer') {
+    var emberPowerSelect = this.addons.filter(function(addon) {
+      return addon.name === 'ember-power-select';
+    })[0];
+    return emberPowerSelect.contentFor(type, config);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    return '&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700
+,400italic"&gt;' +
+      '&lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;&amp;#
+x27;;
+  }
+} else if (type === 'body-footer') {
+  var emberPowerSelect = this.addons.filter(function(addon) {
+    return addon.name === 'ember-power-select';
+  })[0];
+  return emberPowerSelect.<span class="apidocCodeKeywordSpan">contentFor</span>(type, config);
+}
+  },
+
+  treeForVendor: function(tree) {
+var trees = [];
+
+if (!process.env.EMBER_CLI_FASTBOOT) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.included" id="apidoc.element.ember-paper.included">
+        function <span class="apidocSignatureSpan">ember-paper.</span>included
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">included = function () {
+  this._super.included.apply(this, arguments);
+
+  var app;
+
+  // If the addon has the _findHost() method (in ember-cli &gt;= 2.7.0), we'll just
+  // use that.
+  if (typeof this._findHost === 'function') {
+    app = this._findHost();
+  } else {
+    // Otherwise, we'll use this implementation borrowed from the _findHost()
+    // method in ember-cli.
+    var current = this;
+    do {
+      app = current.app || app;
+    } while (current.parent.parent &amp;&amp; (current = current.parent));
+  }
+
+  if (!process.env.EMBER_CLI_FASTBOOT) {
+    app.import('vendor/hammerjs/hammer.js');
+    app.import('vendor/matchmedia-polyfill/matchMedia.js');
+    app.import('vendor/propagating-hammerjs/propagating.js');
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.pathBase" id="apidoc.element.ember-paper.pathBase">
+        function <span class="apidocSignatureSpan">ember-paper.</span>pathBase
+        <span class="apidocSignatureSpan">(packageName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">pathBase = function (packageName) {
+  return path.dirname(resolve.sync(packageName + '/package.json', { basedir: __dirname }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+  },
+
+  treeForVendor: function(tree) {
+var trees = [];
+
+if (!process.env.EMBER_CLI_FASTBOOT) {
+  var hammerJs = new Funnel(this.<span class="apidocCodeKeywordSpan">pathBase</span>('hammerjs'), {
+    files: [ 'hammer.js' ],
+    destDir: 'hammerjs'
+  });
+  var matchMediaPolyfill = new Funnel(this.pathBase('matchmedia-polyfill'), {
+    files: [ 'matchMedia.js' ],
+    destDir: 'matchmedia-polyfill'
+  });
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.postprocessTree" id="apidoc.element.ember-paper.postprocessTree">
+        function <span class="apidocSignatureSpan">ember-paper.</span>postprocessTree
+        <span class="apidocSignatureSpan">(type, tree)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">postprocessTree = function (type, tree) {
+  if (type === 'all' || type === 'styles') {
+    tree = autoprefixer(tree,
+        this.app.options.autoprefixer || { browsers: ['last 2 versions'] });
+  }
+  return tree;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.treeForStyles" id="apidoc.element.ember-paper.treeForStyles">
+        function <span class="apidocSignatureSpan">ember-paper.</span>treeForStyles
+        <span class="apidocSignatureSpan">(tree)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">treeForStyles = function (tree) {
+  var scssFiles = [
+    //core styles
+    'core/style/typography.scss',
+    'core/style/themes.scss',
+    'core/style/mixins.scss',
+    'core/style/variables.scss',
+    'core/style/structure.scss',
+    'core/services/layout/layout.scss',
+    //component styles
+    'components/content/content.scss',
+    'components/content/content-theme.scss',
+
+    'components/card/card.scss',
+    'components/card/card-theme.scss',
+
+    'components/button/button.scss',
+    'components/button/button-theme.scss',
+
+    'components/checkbox/checkbox.scss',
+    'components/checkbox/checkbox-theme.scss',
+
+    'components/radioButton/radio-button.scss',
+    'components/radioButton/radio-button-theme.scss',
+
+    'components/switch/switch.scss',
+    'components/switch/switch-theme.scss',
+
+    'components/input/input.scss',
+    'components/input/input-theme.scss',
+
+    'components/list/list.scss',
+    'components/list/list-theme.scss',
+
+    'components/divider/divider.scss',
+    'components/divider/divider-theme.scss',
+
+    'components/whiteframe/whiteframe.scss',
+
+    'components/toolbar/toolbar.scss',
+    'components/toolbar/toolbar-theme.scss',
+
+    'components/icon/icon.scss',
+    'components/icon/icon-theme.scss',
+
+    'components/slider/slider.scss',
+    'components/slider/slider-theme.scss',
+
+    'components/subheader/subheader.scss',
+    'components/subheader/subheader-theme.scss',
+
+    'components/autocomplete/autocomplete.scss',
+    'components/autocomplete/autocomplete-theme.scss',
+
+    'components/progressLinear/progress-linear.scss',
+    'components/progressLinear/progress-linear-theme.scss',
+
+    'components/progressCircular/progress-circular.scss',
+    'components/progressCircular/progress-circular-theme.scss',
+
+    'components/menu/menu.scss',
+    'components/menu/menu-theme.scss',
+
+    'components/select/select.scss',
+    'components/select/select-theme.scss',
+
+    'components/gridList/grid-list.scss',
+
+    'components/sidenav/sidenav.scss',
+    'components/sidenav/sidenav-theme.scss',
+
+    'components/backdrop/backdrop.scss',
+    'components/backdrop/backdrop-theme.scss',
+
+    'components/dialog/dialog.scss',
+    'components/dialog/dialog-theme.scss',
+
+    'components/virtualRepeat/virtual-repeater.scss',
+
+    'components/chips/chips.scss',
+    'components/chips/chips-theme.scss'
+  ];
+
+  var angularScssFiles = new Funnel(this.pathBase('angular-material-source'), {
+    files: scssFiles,
+    srcDir: '/src',
+    destDir: 'angular-material',
+    annotation: 'AngularScssFunnel'
+  });
+
+  angularScssFiles = new AngularScssFilter(angularScssFiles, {
+    annotation: 'AngularScssFilter'
+  });
+
+  return this._super.treeForStyles(mergeTrees([angularScssFiles, tree], { overwrite: true }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    annotation: 'AngularScssFunnel'
+  });
+
+  angularScssFiles = new AngularScssFilter(angularScssFiles, {
+    annotation: 'AngularScssFilter'
+  });
+
+  return this._super.<span class="apidocCodeKeywordSpan">treeForStyles</span>(mergeTrees([angularScssFiles, tree], { overwrite:
+true }));
+},
+
+/*
+  Rely on the `resolve` package to mimic node's resolve algorithm.
+  It finds the angular-material-source module in a manner that works for npm 2.x,
+  3.x, and yarn in both the addon itself and projects that depend on this addon.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.treeForVendor" id="apidoc.element.ember-paper.treeForVendor">
+        function <span class="apidocSignatureSpan">ember-paper.</span>treeForVendor
+        <span class="apidocSignatureSpan">(tree)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">treeForVendor = function (tree) {
+  var trees = [];
+
+  if (!process.env.EMBER_CLI_FASTBOOT) {
+    var hammerJs = new Funnel(this.pathBase('hammerjs'), {
+      files: [ 'hammer.js' ],
+      destDir: 'hammerjs'
+    });
+    var matchMediaPolyfill = new Funnel(this.pathBase('matchmedia-polyfill'), {
+      files: [ 'matchMedia.js' ],
+      destDir: 'matchmedia-polyfill'
+    });
+    var propagatingHammerJs = new Funnel(this.pathBase('propagating-hammerjs'), {
+      files: [ 'propagating.js' ],
+      destDir: 'propagating-hammerjs'
+    });
+    trees = trees.concat([hammerJs, matchMediaPolyfill, propagatingHammerJs]);
+  }
+
+  if (tree) {
+    trees.push(tree);
+  }
+
+  return mergeTrees(trees);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ember-paper.angular_scss_filter" id="apidoc.module.ember-paper.angular_scss_filter">module ember-paper.angular_scss_filter</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.angular_scss_filter.angular_scss_filter" id="apidoc.element.ember-paper.angular_scss_filter.angular_scss_filter">
+        function <span class="apidocSignatureSpan">ember-paper.</span>angular_scss_filter
+        <span class="apidocSignatureSpan">(inputNode, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function AngularScssFilter(inputNode, options) {
+  Filter.call(this, inputNode, {
+    annotation: options.annotation
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ember-paper.angular_scss_filter.prototype" id="apidoc.module.ember-paper.angular_scss_filter.prototype">module ember-paper.angular_scss_filter.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.angular_scss_filter.prototype.constructor" id="apidoc.element.ember-paper.angular_scss_filter.prototype.constructor">
+        function <span class="apidocSignatureSpan">ember-paper.angular_scss_filter.prototype.</span>constructor
+        <span class="apidocSignatureSpan">(inputNode, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function AngularScssFilter(inputNode, options) {
+  Filter.call(this, inputNode, {
+    annotation: options.annotation
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-paper.angular_scss_filter.prototype.processString" id="apidoc.element.ember-paper.angular_scss_filter.prototype.processString">
+        function <span class="apidocSignatureSpan">ember-paper.angular_scss_filter.prototype.</span>processString
+        <span class="apidocSignatureSpan">(content, relativePath)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">processString = function (content, relativePath) {
+
+  // Get theme name from config?
+  var themeName = 'default';
+
+  var newRule = content
+    .replace(/THEME_NAME/g, themeName)
+    .replace(/'{{.*?}}'/g, function(themeExpression) {
+      //remove '{{ and }}'
+      themeExpression = themeExpression.substr(0, themeExpression.length - 3).substr(3);
+      var params = themeExpression.split('-').map(function(p) {
+        return p.trim();
+      });
+
+      var colorType = params[0];
+      var hue = params[1];
+
+      if (hue === 'color') {
+        // Get the default value
+        // TODO: Support for dark themes?
+        hue = LIGHT_DEFAULT_HUES[colorType]['default'];
+      }
+
+      var colorExp = 'color($' + colorType;
+
+      // Find and replace simple variables where we use a specific hue
+      if (hue !== 'color' &amp;&amp; hue !== undefined) {
+
+        // TODO: Support for dark themes?
+        // find and replace simple variables where we use a specific hue
+        if (colorType === 'foreground') {
+          if (hue === 'shadow') {
+            colorExp = LIGHT_SHADOW;
+          } else {
+            colorExp = DARK_FOREGROUND[hue] || DARK_FOREGROUND['1'];
+          }
+        } else {
+          colorExp += ', "' + hue + '"' + ')';
+        }
+
+      } else {
+        colorExp += ')';
+      }
+
+      if (params[2] !== undefined) {
+        colorExp = 'rgba(' + colorExp + ', ' + params[2] + ')';
+      }
+
+      return colorExp;
+    });
+
+  if (themeName === 'default') {
+    var themeRuleRegex = /((?:(?:(?: |&gt;|\.|\w|-|:|\(|\)|\[|\]|"|'|=)+) )?)((?:(?:\w|\.|-)+)?)\.md-default-theme((?: |&gt;|\.|\w|-|:|\(|\)|\[|\]|"|'|=)*)/g;
+    newRule = newRule.replace(themeRuleRegex, function(match, prefix, target, suffix) {
+      return match + ', ' + prefix + target + suffix;
+    });
+
+  }
+
+  return newRule;
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
